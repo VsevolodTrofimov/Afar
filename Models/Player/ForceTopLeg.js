@@ -23,7 +23,7 @@ public class Legs {
 var legs = new Legs();
 
 function Start () {
-	anim = GetComponent("Animator");
+	anim = GetComponent.<Animator>();
 	rb = GetComponent.<Rigidbody>();
 };
 
